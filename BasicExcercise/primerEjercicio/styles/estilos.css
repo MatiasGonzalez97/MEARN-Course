@@ -1,0 +1,35 @@
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.img-logo{
+    width: 200px;
+    
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    text-align: center;
+    /* justify-content: center; */
+}
+.header-text{
+    margin-left: 2em;
+    text-align: center;
+    line-height: 50%;
+    padding-top: 3em;
+}
+.events{
+   display: flex;
+   margin-top: 5em;
+}
+.events-text{
+    margin-left: 2%;
+}
+.events-text span{
+    margin-left: 2em;
+}
+.title{
+    margin-bottom: 20px;
+}
