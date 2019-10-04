@@ -1,0 +1,89 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.img-logo {
+    width: 200px;
+}
+
+.img-header {
+    width: 100%;
+    height: 30vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 10%; */
+    text-align: center;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+
+.lista-sobre-jugadores {
+    position: relative;
+    top: 25px;
+}
+
+.header-text {
+    margin-left: 2em;
+    text-align: center;
+    line-height: 50%;
+    padding-top: 3em;
+}
+
+.events {
+    display: flex;
+    /* margin-left: 3em: ; */
+}
+
+.events-text {
+    margin-left: 5em;
+}
+
+.events-text span {
+    margin-left: 2em;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.under-image {
+    border: 1.5px solid black;
+}
+
+.active-navbar {
+    background-color: green;
+    color: white;
+}
+
+.non-activeNavbar {
+    background-color: blue;
+    color: white;
+}
+.rulesMain{
+    text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.Email_phone{
+    display: flex;
+    justify-content: space-between;
+}
