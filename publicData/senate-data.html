@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table id="senate-data">
+
+    </table>
+<script src="pro-congress-113-senate.js"></script>
+<script>
+    document.getElementById("senate-data").innerHTML = JSON.stringify(data,null,2);
+    resultado = data.results[0];
+    console.log(resultado.members)
+    for(i=0;i<data.results.length;i++) {
+        console.log(data.results[i])
+    }
+</script>
+</body>
+</html>
